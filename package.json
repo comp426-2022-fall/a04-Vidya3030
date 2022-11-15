@@ -1,0 +1,23 @@
+{
+  "name": "a04-vidya3030",
+  "version": "1.0.0",
+  "description": "a04 assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a04-Vidya3030.git"
+  },
+  "author": "Vidya3030",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a04-Vidya3030/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a04-Vidya3030#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "minimist": "^1.2.7"
+  }
+}
