@@ -1,5 +1,5 @@
 {
-  "name": "a04-vidya3030",
+  "name": "a03",
   "version": "1.0.0",
   "description": "a04 assignment",
   "main": "server.js",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/comp426-2022-fall/a04-Vidya3030.git"
   },
   "author": "Vidya3030",
-  "license": "GPL-3.0-or-later",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a04-Vidya3030/issues"
   },
