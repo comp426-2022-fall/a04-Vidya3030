@@ -19,7 +19,12 @@ application.get('/app/roll/', (req, res) => {
     res.send(roll(6,2,1));
 });
 
+application.get('/app/roll/:sides/:dice/', (req, res) => {
+    res.send(roll(sides, dice, 1));
+});
 
-
+application.get('/app/roll/:sides/:dice/:rolls/', (req, res) => {
+    res.send(roll(sides, dice, rolls));
+});
 
 
