@@ -9,7 +9,7 @@ const args = minimist(process.argv.slice(2));
 const app = express();
 app.use(express.urlencoded({extended: true}));
 
-const port = 5000;
+const port = args.port || 5000;
 
 app.get('*', (req, res) => {
     res.staus(404).send('404 NOT FOUND');
