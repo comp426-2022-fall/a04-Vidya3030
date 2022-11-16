@@ -2,7 +2,7 @@
 
 import { roll } from './lib/roll.js';
 import minimst from "minimist";
-import express, { application } from "express";
+import express from "express";
 
 const args = minimist(process.argv.slice(2));
 
