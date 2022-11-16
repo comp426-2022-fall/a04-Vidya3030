@@ -7,10 +7,11 @@ import express, { application } from "express";
 const args = minimist(process.argv.slice(2));
 
 const app = express();
+app.use(express.urlencoded({extended: true}));
 
 const port = 5000;
 
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
     res.staus(404).send('404 NOT FOUND');
 });
 
@@ -40,4 +41,5 @@ app.get('/app/roll/:sides/:dice/:rolls/', (req, res) => {
     res.send(roll(sides, dice, rolls));
 });
 
+app.listen(port);
 
